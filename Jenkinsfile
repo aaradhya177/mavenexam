@@ -34,9 +34,7 @@ stages {
 
     stage('Run Application') {
         steps {
-            sh 'timeout 15 java -jar target/mehra-1.0-SNAPSHOT.jar
-
-'
+            sh 'timeout 15 java -jar target/mehra-1.0-SNAPSHOT.jar'
         }
     }
 }
